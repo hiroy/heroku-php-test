@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "5e4d9101a0c26a923922c0ba6b823ff5",
+    "hash": "889f4a39cf426686ef426a6a3dc2d915",
     "packages": [
         {
             "name": "pimple/pimple",
@@ -554,9 +554,10 @@
     "stability-flags": [
 
     ],
-    "platform": [
-
-    ],
+    "platform": {
+        "php": "5.5.11",
+        "ext-mbstring": "*"
+    },
     "platform-dev": [
 
     ]
