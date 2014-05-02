@@ -2,6 +2,7 @@
   "require": {
     "php": "5.5.11",
     "ext-mbstring": "*",
+    "ext-imagick": "*",
     "silex/silex": "~1.2",
     "twig/twig": ">=1.8,<2.0-dev"
   }
