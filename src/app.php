@@ -23,9 +23,13 @@ $app->register(new Silex\Provider\TwigServiceProvider(), [
 
 Symfony\Component\HttpFoundation\Request::enableHttpMethodParameterOverride();
 
-$app->get('/foo', function() use ($app) {
-    phpinfo();
+$app->get('/', function() use ($app) {
     return $app['twig']->render('index.html');
+});
+
+$app->get('/test', function() use ($app) {
+    phpinfo();
+    exit;
 });
 
 return $app;
