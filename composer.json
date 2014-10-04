@@ -1,6 +1,6 @@
 {
   "require": {
-    "php": "5.5.11",
+    "php": "~5.5.0",
     "ext-mbstring": "*",
     "ext-imagick": "*",
     "silex/silex": "~1.2",
