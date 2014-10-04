@@ -32,4 +32,11 @@ $app->get('/test', function() use ($app) {
     exit;
 });
 
+$app->get('/worker', function() use ($app) {
+    while (true) {
+        error_log("Hello\n", 3, 'php://stderr');
+        sleep(10);
+    }
+}
+
 return $app;
