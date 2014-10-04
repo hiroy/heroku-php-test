@@ -37,6 +37,6 @@ $app->get('/worker', function() use ($app) {
         error_log("Hello\n", 3, 'php://stderr');
         sleep(10);
     }
-}
+});
 
 return $app;
